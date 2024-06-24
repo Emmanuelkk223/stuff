@@ -1,0 +1,25 @@
+// Allow us to define styles that can be extended 
+
+%button-base{ // Placeholder selector
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.primary-button {
+    @extend %button-base; // Copies styles from placeholder selector
+    color: #ffffff;
+}
+
+.secondary-button {
+    @extend %button-base; // Copies styles from placeholder selector
+    color: #000000;
+    background-color: #BABABA;
+}

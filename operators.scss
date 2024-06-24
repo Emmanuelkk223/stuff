@@ -1,0 +1,14 @@
+// Calculate values without resorting to calc() 
+
+.container {
+  width: 100%;
+}
+
+article {
+  width: (600px / 960px) * 100%; //Operation
+  float: left;
+}
+aside {
+  width: (300px / 960px) * 100%; //Operation
+  float: right;
+}

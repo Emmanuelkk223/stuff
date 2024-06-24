@@ -1,0 +1,13 @@
+//Declare and call variable using '$'
+
+$primary-color: #1FC830;
+$font-stack: Inter, sans-serif;
+$shadow-color: #333333;
+
+body {
+    font: $font-stack;
+}
+button {
+    background-color: $primary-color;
+    box-shadow: $shadow-color;
+}

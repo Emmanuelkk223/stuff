@@ -1,0 +1,8 @@
+// You don't have to write everything in just one file
+
+@use "variable.scss"; // "@use" imports a file
+
+button {
+    background-color: variable.$primary-color;
+    box-shadow: 0 1.5rem variable.$light-theme-color;
+}

@@ -1,0 +1,16 @@
+// We can nest declarations inside other declarations
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    ul { // Nested inside ".container"
+        padding: 0;
+        list-style: none;
+        li { // Nested inside "ul"
+            display: inline-block;
+        }
+    }
+    a { // Nested inside ".container"
+        text-decoration: underline;
+    }
+}

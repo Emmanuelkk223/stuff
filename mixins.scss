@@ -1,0 +1,13 @@
+// Allow us to create reusable-chunks of code
+
+@mixin box-shadow($x, $y, $blur, $color) {
+    -webkit-box-shadow: $x $y $blur $color;
+    -moz-box-shadow: $x $y $blur $color;
+    box-shadow: $x $y $blur $color;
+}
+
+.card {
+    // Use @include to re-use these chunks
+    @include box-shadow(2px, 2px, 5px, #545454);
+    background-color: #ffffff;
+}
