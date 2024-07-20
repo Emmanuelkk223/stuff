@@ -12,6 +12,7 @@ for i  in myList:
         Boolean.append(i)
     else:
         fruit.append(i)
+
         
 print(price)
 print(fruit)

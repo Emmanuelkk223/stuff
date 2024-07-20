@@ -5,13 +5,13 @@ def main():
     
 def  create_report(spacecraft):
     return f""""
-    ======= REPORT =======
-    
-    Name: {spacecraft["name"]}
-    Distance: {spacecraft.get("distance", "unknown")} AU
-    Days: {spacecraft.get("days", "unknown")}
-    Orbit: {spacecraft.get("orbit", "unknown")}
-    
-    =======================
+        ======= REPORT =======
+        
+        Name: {spacecraft["name"]}
+        Distance: {spacecraft.get("distance", "unknown")} AU
+        Days: {spacecraft.get("days", "unknown")}
+        Orbit: {spacecraft.get("orbit", "unknown")}
+        
+        =======================
     """
 main()
