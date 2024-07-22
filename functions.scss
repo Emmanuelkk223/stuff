@@ -1,15 +1,14 @@
 // Return a value from a chunk of code
 
 @function px-to-rem($px, $base-font-size: 16px) {
-    @return ($px / $base-font-size) * 1rem;
+  @return ($px / $base-font-size) * 1rem;
 }
 
 body {
-    font-size: px-to-rem(16px); // 1rem
+  font-size: px-to-rem(16px); // 1rem
 }
 
 h1 {
-    font-size: px-to-rem(32px); // 2rem
-    margin-bottom: px-to-rem(16px); // 1rem
+  font-size: px-to-rem(32px); // 2rem
+  margin-bottom: px-to-rem(16px); // 1rem
 }
-
