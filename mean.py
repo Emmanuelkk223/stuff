@@ -5,8 +5,5 @@ def main():
     data_list.append(data_input)
     print(data_list)
 
+
 main()
-
-
-
-    

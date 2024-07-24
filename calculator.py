@@ -12,4 +12,6 @@ def get_int():
         else:
             break
     return x
+
+
 main()
